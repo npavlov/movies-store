@@ -1,0 +1,30 @@
+.MovieListItem {
+  display: flex;
+  margin: 15px 0;
+}
+
+.MovieListItem .MovieCover {
+  flex-shrink: 0;
+  width: 100px;
+  margin-right: 30px;
+}
+
+.MovieListItem .MovieCover img {
+  max-width: 100%;
+}
+
+.MovieListItem .MovieDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  align-items: flex-start;
+}
+
+.MovieListItem .MovieDetails .MovieTitle {
+  font-size: 1.2rem;
+}
+
+.MovieListItem .MovieDetails .MoviePrice {
+  font-size: 1.4rem;
+}
